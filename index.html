@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rutina.py - Tu gestor de tareas</title>
+    <title>Mis Tareas - Tu gestor de tareas</title>
     <!--
       Referencias útiles para este archivo:
       - Bootstrap 5: https://getbootstrap.com/docs/5.3/getting-started/introduction/
@@ -26,8 +26,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm" id="navbar-principal">
       <div class="container-fluid">
         <a class="navbar-brand d-flex align-items-center" href="#">
-          <img src="./img/rutina.py-logo-white.png" alt="Logo Rutina.py" width="32" height="32" class="me-2">
-          <span class="fw-bold">Rutina.py</span>
+          <img src="./img/rutina.py-logo-white.png" alt="Logo Mis Tareas" width="32" height="32" class="me-2">
+          <span class="fw-bold">Mis Tareas</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -61,7 +61,7 @@
         Tag: #header-bienvenida
       -->
       <header class="mb-5 text-center" id="header-bienvenida">
-        <h1 class="display-4 fw-bold">¡Hola, cesar!</h1>
+        <h1 class="display-4 fw-bold">¡Hola, César!</h1>
         <p class="lead">Organiza tu día y alcanza tus metas.
           <span class="text-primary fw-semibold">¡Tú puedes lograrlo!</span></p>
       </header>
@@ -95,11 +95,11 @@
                 <li class="list-group-item p-3">
                   <div class="d-flex justify-content-between align-items-center">
                     <div>
-                      <h6 class="mb-1 fw-bold"><i class="bi bi-chevron-right text-primary me-2"></i>Pasear a mis perros</h6>
+                      <h6 class="mb-1 fw-bold"><i class="bi bi-chevron-right text-primary me-2"></i>Trabajar</h6>
                       <div class="d-flex flex-wrap gap-2 small">
                         <span class="badge bg-warning text-dark"><i class="bi bi-exclamation-triangle me-1"></i>Alta</span>
-                        <span class="badge bg-primary"><i class="bi bi-house-door me-1"></i>Hogar</span>
-                        <span class="badge bg-light text-dark border"><i class="bi bi-calendar-event me-1"></i>2025-08-18</span>
+                        <span class="badge bg-success"><i class="bi bi-briefcase me-1"></i>Trabajo</span>
+                        <span class="badge bg-light text-dark border"><i class="bi bi-calendar-event me-1"></i>2026-07-06</span>
                       </div>
                     </div>
                     <!-- Botón para marcar como completada, abre modal de confirmación -->
@@ -111,26 +111,11 @@
                 <li class="list-group-item p-3">
                   <div class="d-flex justify-content-between align-items-center">
                     <div>
-                      <h6 class="mb-1 fw-bold"><i class="bi bi-chevron-right text-primary me-2"></i>Enviar reporte semanal</h6>
-                      <div class="d-flex flex-wrap gap-2 small">
-                        <span class="badge bg-info text-dark"><i class="bi bi-exclamation-circle me-1"></i>Media</span>
-                        <span class="badge bg-success"><i class="bi bi-briefcase me-1"></i>Trabajo</span>
-                        <span class="badge bg-light text-dark border"><i class="bi bi-calendar-event me-1"></i>2025-08-18</span>
-                      </div>
-                    </div>
-                    <button class="btn btn-outline-success btn-sm rounded-circle ms-2" title="Marcar como completada" data-bs-toggle="modal" data-bs-target="#modalConfirmarCompletada">
-                      <i class="bi bi-check-lg"></i>
-                    </button>
-                  </div>
-                </li>
-                <li class="list-group-item p-3">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div>
-                      <h6 class="mb-1 fw-bold"><i class="bi bi-chevron-right text-primary me-2"></i>Estudiar para el examen</h6>
+                      <h6 class="mb-1 fw-bold"><i class="bi bi-chevron-right text-primary me-2"></i>Estudiar mi curso de EBAC</h6>
                       <div class="d-flex flex-wrap gap-2 small">
                         <span class="badge bg-danger"><i class="bi bi-exclamation-diamond me-1"></i>Alta</span>
                         <span class="badge bg-secondary"><i class="bi bi-book me-1"></i>Estudio</span>
-                        <span class="badge bg-light text-dark border"><i class="bi bi-calendar-event me-1"></i>2025-08-18</span>
+                        <span class="badge bg-light text-dark border"><i class="bi bi-calendar-event me-1"></i>2026-07-06</span>
                       </div>
                     </div>
                     <button class="btn btn-outline-success btn-sm rounded-circle ms-2" title="Marcar como completada" data-bs-toggle="modal" data-bs-target="#modalConfirmarCompletada">
@@ -141,26 +126,41 @@
                 <li class="list-group-item p-3">
                   <div class="d-flex justify-content-between align-items-center">
                     <div>
-                      <h6 class="mb-1 fw-bold"><i class="bi bi-chevron-right text-primary me-2"></i>Llamar al doctor</h6>
-                      <div class="d-flex flex-wrap gap-2 small">
-                        <span class="badge bg-secondary"><i class="bi bi-exclamation-circle me-1"></i>Baja</span>
-                        <span class="badge bg-danger"><i class="bi bi-person me-1"></i>Personal</span>
-                        <span class="badge bg-light text-dark border"><i class="bi bi-calendar-event me-1"></i>2025-08-18</span>
-                      </div>
-                    </div>
-                    <button class="btn btn-outline-success btn-sm rounded-circle ms-2" title="Marcar como completada" data-bs-toggle="modal" data-bs-target="#modalConfirmarCompletada">
-                      <i class="bi bi-check-lg"></i>
-                    </button>
-                  </div>
-                </li>
-                <li class="list-group-item p-3">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div>
-                      <h6 class="mb-1 fw-bold"><i class="bi bi-chevron-right text-primary me-2"></i>Comprar regalo de cumpleaños</h6>
+                      <h6 class="mb-1 fw-bold"><i class="bi bi-chevron-right text-primary me-2"></i>Hacer mis deberes</h6>
                       <div class="d-flex flex-wrap gap-2 small">
                         <span class="badge bg-info text-dark"><i class="bi bi-exclamation-circle me-1"></i>Media</span>
-                        <span class="badge bg-dark"><i class="bi bi-gift me-1"></i>Otro</span>
-                        <span class="badge bg-light text-dark border"><i class="bi bi-calendar-event me-1"></i>2025-08-18</span>
+                        <span class="badge bg-primary"><i class="bi bi-house-door me-1"></i>Hogar</span>
+                        <span class="badge bg-light text-dark border"><i class="bi bi-calendar-event me-1"></i>2026-07-06</span>
+                      </div>
+                    </div>
+                    <button class="btn btn-outline-success btn-sm rounded-circle ms-2" title="Marcar como completada" data-bs-toggle="modal" data-bs-target="#modalConfirmarCompletada">
+                      <i class="bi bi-check-lg"></i>
+                    </button>
+                  </div>
+                </li>
+                <li class="list-group-item p-3">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <h6 class="mb-1 fw-bold"><i class="bi bi-chevron-right text-primary me-2"></i>Comprar despensa</h6>
+                      <div class="d-flex flex-wrap gap-2 small">
+                        <span class="badge bg-info text-dark"><i class="bi bi-exclamation-circle me-1"></i>Media</span>
+                        <span class="badge bg-primary"><i class="bi bi-house-door me-1"></i>Hogar</span>
+                        <span class="badge bg-light text-dark border"><i class="bi bi-calendar-event me-1"></i>2026-07-06</span>
+                      </div>
+                    </div>
+                    <button class="btn btn-outline-success btn-sm rounded-circle ms-2" title="Marcar como completada" data-bs-toggle="modal" data-bs-target="#modalConfirmarCompletada">
+                      <i class="bi bi-check-lg"></i>
+                    </button>
+                  </div>
+                </li>
+                <li class="list-group-item p-3">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <h6 class="mb-1 fw-bold"><i class="bi bi-chevron-right text-primary me-2"></i>Pagar internet</h6>
+                      <div class="d-flex flex-wrap gap-2 small">
+                        <span class="badge bg-warning text-dark"><i class="bi bi-exclamation-triangle me-1"></i>Alta</span>
+                        <span class="badge bg-primary"><i class="bi bi-house-door me-1"></i>Hogar</span>
+                        <span class="badge bg-light text-dark border"><i class="bi bi-calendar-event me-1"></i>2026-07-06</span>
                       </div>
                     </div>
                     <button class="btn btn-outline-success btn-sm rounded-circle ms-2" title="Marcar como completada" data-bs-toggle="modal" data-bs-target="#modalConfirmarCompletada">
